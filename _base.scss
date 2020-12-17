@@ -1,0 +1,34 @@
+$color-primary-dark: hsl(243, 87%, 12%);
+$color-primary-desaturated: hsl(238, 22%, 44%);
+
+$color-accent-blue: hsl(224, 93%, 58%);
+$color-accent-cyan: hsl(170, 45%, 43%);
+
+$color-neutral-white: hsl(240, 75%, 98%);
+$color-neutral-gray: hsl(0, 0%, 75%);
+
+$font-headings: 'Raleway', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+
+html {
+    font-weight: 600;
+}
+
+body {
+    font-family: $font-body;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+    background-image: url('/primeira-pagina/images/illustration-1.svg'), url(/primeira-pagina/images/illustration-2.svg), url(/primeira-pagina/images/bg-curve-desktop.svg);
+    background-size: 800px, 650px, cover;
+    background-repeat: no-repeat;
+    background-clip: inherit;
+    background-position-x: 1000px, 1000px, center;
+    background-position-y: 200px, 1200px, 970px;
+}
+
+.paddingbody {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
